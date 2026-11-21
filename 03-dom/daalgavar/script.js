@@ -4,17 +4,24 @@
 //   .animal-name   ->  nameText
 //   .animal-sound  ->  soundText
 //   .animal-legs   ->  legsText
+const nameText = document.querySelector(".animal-name");
+const soundText = document.querySelector(".animal-sound");
+const legsText = document.querySelector(".animal-legs");
 
 
 // TODO 2: Дуртай амьтныхаа мэдээллийг хувьсагчид хадгал
 //   animalName  - амьтны нэр (текст)
 //   animalSound - яаж дуугардаг (текст)
 //   animalLegs  - хэдэн хөлтэй (тоо)
-
-
+ let animalName = "dog"
+ let animalsound = " how how"
+ let animallegs =" 4"
 // TODO 3: Элементүүдийн текстийг хувьсагчаараа соль
 //   Жишээ үр дүн:
 //     Нохой
 //     Дуу: Хав хав
 //     Хөл: 4
 
+nameText.textContent = animalName;
+soundText.textContent = animalsound;
+legsText.textContent  = animallegs;
