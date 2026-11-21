@@ -3,17 +3,24 @@
 
 // TODO 1: СОНГО. Дөрвөн элементийг сонгож хувьсагчид хадгал
 //   .battery-level  ->  levelBar
+let levelBar = document.querySelector(".battery-level");
 //   .percent        ->  percentText
+let percentText = document.querySelector(".percent");
 //   .charge-button  ->  chargeButton
+let chargeButton = document.querySelector(".charge-button");
 //   .use-button     ->  useButton
-
+let useButton = document.querySelector(".use-button ");
 
 // TODO 2: level нэртэй хувьсагч үүсгэж 50 утга өг (let ашигла)
-
+let level = 50;
 
 // TODO 3: chargeButton дарахад:
 //   a) level 100-аас бага бол 10-аар нэм
+if(level<100){
+    level=level+10;
+}
 //   b) percentText-ийн текстийг шинэчил. Жишээ: "60%"
+percentText.textContent="60%"
 //   c) levelBar-ийн өргөнийг шинэчил:  levelBar.style.width = level + "%";
 //   d) levelBar-аас "low", "medium", "high" гурван class-ийг хас
 //   e) level 20 ба түүнээс бага бол "low",
