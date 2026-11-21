@@ -2,10 +2,16 @@
 // Эхлээд index.html дотор TODO 1, TODO 2-ыг хий.
 
 // TODO 3: Консол дээр өөрийнхөө нэрийг хэвлэ
+console.log("Namudari");
 
 
 // TODO 4: Консол дээр дуртай хоолоо хэвлэ
+console.log("spaghetti");
 
 
 // TODO 5: Консолоор гурван бодлого бодуул (жишээ нь: 15 + 27)
+a = 3 + 5;
+b = 10 - 7;
+c = 8*9;
+console.log(a,b,c);
 
