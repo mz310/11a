@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10 - Миний хийх зүйлс</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+  <div class="app">
+    <h1 class="title">Миний хийх зүйлс</h1>
+    <p class="count">Нийт: 0</p>
+
+    <input class="input task-input" type="text" placeholder="Шинэ ажил бич">
+    <button class="button add-button">Нэмэх</button>
+
+    <!-- Эхэндээ нуугдсан. Input хоосон үед JS харуулна -->
+    <p class="warning hidden">Эхлээд ажлаа бичээрэй!</p>
+
+    <!-- Хоосон жагсаалт. Мөрүүдийг нь script.js үүсгэнэ -->
+    <ul class="task-list"></ul>
+  </div>
+
+  <button class="button theme-button">Харанхуй горим</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

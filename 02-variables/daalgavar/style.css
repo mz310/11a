@@ -1,0 +1,25 @@
+.page {
+  font-family: Arial, sans-serif;
+  background-color: #ecfdf5;
+  color: #1f2937;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: white;
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.title {
+  font-size: 26px;
+  color: #059669;
+}
+
+.intro {
+  font-size: 18px;
+  line-height: 28px;
+}

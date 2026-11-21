@@ -1,0 +1,55 @@
+.page {
+  font-family: Arial, sans-serif;
+  background-color: #ecfdf5;
+  color: #1f2937;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: white;
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.title {
+  font-size: 24px;
+  color: #059669;
+}
+
+.input {
+  width: 140px;
+  padding: 10px;
+  margin: 4px;
+  border: 2px solid #a7f3d0;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.buttons {
+  margin-top: 12px;
+}
+
+.button {
+  background-color: #059669;
+  color: white;
+  border: none;
+  width: 56px;
+  padding: 10px 0;
+  margin: 4px;
+  border-radius: 8px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Input хоосон үед JS энэ class-ийг нэмнэ */
+.error {
+  color: #dc2626;
+}
