@@ -6,10 +6,13 @@
 //   .percent        ->  percentText
 //   .charge-button  ->  chargeButton
 //   .use-button     ->  useButton
-
+const levelBar = document.querySelector(".battery-level")
+const percentText = document.querySelector(".percent");
+const chargeButton = document.querySelector(".charge-button");
+const useButton = document.querySelector(".use-button");
 
 // TODO 2: level нэртэй хувьсагч үүсгэж 50 утга өг (let ашигла)
-
+let level = 50;
 
 // TODO 3: chargeButton дарахад:
 //   a) level 100-аас бага бол 10-аар нэм
@@ -19,9 +22,26 @@
 //   e) level 20 ба түүнээс бага бол "low",
 //      60 ба түүнээс бага бол "medium",
 //      бусад үед "high" class нэм
+if (level < 100){
+    level = level + 10;
+    
+}
+
+
+
 
 
 // TODO 4: useButton дарахад:
 //   a) level 0-ээс их бол 10-аар хас
 //   b) - e) алхмууд TODO 3-тай адил
+useButton.addEventListener("click", function () {
+if (level > 0) {
+  statusText.textContent = "Ялагч!";
+} else if (score >= 5) {
+  statusText.textContent = "Сайн байна!";
+} else {
+  statusText.textContent = "Эхэлцгээе!";
+}
 
+
+});
